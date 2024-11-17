@@ -5,30 +5,13 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "api/*": [
-        "src/api/*"
-      ],
-      "assets/*": [
-        "src/assets/*"
-      ],
-      "base/*": [
-        "src/base/*"
-      ],
-      "components/*": [
-        "src/components/*"
-      ],
-      "pages/*": [
-        "src/pages/*"
-      ],
+      "@/*": ["src/*"],
+      "api/*": ["src/api/*"],
+      "assets/*": ["src/assets/*"],
+      "base/*": ["src/base/*"],
+      "components/*": ["src/components/*"],
+      "pages/*": ["src/pages/*"]
     },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   }
 }
